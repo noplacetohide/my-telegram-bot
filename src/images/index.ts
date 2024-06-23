@@ -4,12 +4,13 @@ import highVoltage from "./high-voltage.png";
 import notcoin from "./notcoin.png";
 import rocket from "./rocket.png";
 import trophy from "./trophy.png";
-
+import ptap from './ptap.png'
 export {
     bear,
     coin,
     highVoltage,
     notcoin,
     rocket,
-    trophy
+    trophy,
+    ptap,
 }
