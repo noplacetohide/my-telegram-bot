@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { RiMoneyRupeeCircleFill } from "react-icons/ri";
-import { bear, coin, highVoltage, notcoin, rocket, trophy } from '../images';
+import { notcoin } from '../images';
 import { IoIosArrowForward } from "react-icons/io";
 
 export default function MainBody() {
