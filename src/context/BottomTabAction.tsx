@@ -1,12 +1,3 @@
-import React from 'react'
-
-export default function BottomTabAction() {
-    return (
-        <div>BottomTabAction</div>
-    )
-}
-
-
 import { createContext, useContext, useState, useEffect } from 'react'
 import queryString from 'query-string';
 const INIT_VALUE: any = {
@@ -21,7 +12,7 @@ export const useTelegramContext = () => {
     }
     return context;
 };
-export function BottomTabActionProvider({ children }: any) {
+export function BottomTabActionProvider({ children }: { children: React.ReactNode }) {
     const [telegramUser, setTelegramUser] = useState({})
     useEffect(() => {
         try {
