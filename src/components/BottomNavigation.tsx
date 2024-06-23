@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { MdCurrencyExchange } from "react-icons/md";
 import { BiBitcoin } from "react-icons/bi";
 import { FaUsers } from "react-icons/fa";
