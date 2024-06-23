@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const TelegramInit: React.FC = ({ children }: any) => {
+const TelegramInit = ({ children }: { children: React.ReactNode }) => {
     useEffect(() => {
         console.log("WINDOW: ", window)
         const initData = (window as any)?.Telegram?.WebApp?.initData;
